@@ -1,14 +1,37 @@
 body {
     margin: 0;
-    background-color: #ff9999;
+    background-color: #2b2b2b;
+    font-size: 30px;
 }
 
 header {
-    background-color: #cd7e7e;
+    background-color: #2e4460;
     height: 100px;
     text-align: center;
 }
 
 h1 {
     margin: 0;
+}
+
+.main {
+    float: left;
+    text-align: center;
+    width: 80%;
+    margin-top: 40px;
+    //background-color: aliceblue;
+}
+
+.nav {
+    margin: 20px;
+    //padding: 20px;
+    max-width: 10%;
+    background-color: #2e4460;
+    float: left;
+}
+
+.nav a {
+    text-decoration: none;
+    margin: 20px;
+    color: #979797;
 }
