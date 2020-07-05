@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #2b2b2b;
     font-size: 30px;
+    font-family: "Comic Sans MS";
 }
 
 header {
@@ -14,24 +15,36 @@ h1 {
     margin: 0;
 }
 
+header {
+    padding-top: 20px;
+}
+
 .main {
     float: left;
     text-align: center;
     width: 80%;
     margin-top: 40px;
-    //background-color: aliceblue;
+    background-color: #3e3e3e;
 }
 
 .nav {
     margin: 20px;
     //padding: 20px;
-    max-width: 10%;
+    //max-width: 20%;
     background-color: #2e4460;
     float: left;
 }
 
 .nav a {
     text-decoration: none;
-    margin: 20px;
+    //margin: 20px;
     color: #979797;
+}
+
+.nav li {
+    margin: 20px;
+}
+
+.content {
+    background-color: #3e3e3e;
 }
