@@ -40,6 +40,7 @@ img {
     //max-width: 20%;
     background-color: #6e86b3;
     float: left;
+    text-align: center;
 }
 
 .nav a {
@@ -48,8 +49,21 @@ img {
     color: #000000;
 }
 
+a:hover {
+    color: #616161;
+}
+
+.nav li:hover {
+    transform: translateX(2px);
+}
+
+.nav li:active {
+    transform: translate(2px, 2px);
+}
+
 .nav li {
     margin: 20px;
+    text-align: left;
 }
 
 .content {
