@@ -17,18 +17,29 @@ h1 {
 
 header {
     padding-top: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.sisu {
+    //margin-top: 50px;
+}
+
+img {
+    width: 70%;
 }
 
 .main {
     float: left;
     text-align: center;
-    width: 80%;
-    margin-top: 40px;
+    width: 70%;
+    margin-top: 150px;
     background-color: #3e3e3e;
 }
 
 .nav {
-    margin: 20px;
+    margin: 150px 20px 20px;
+    //margin: 20px;
     //padding: 20px;
     //max-width: 20%;
     background-color: #2e4460;
@@ -47,4 +58,6 @@ header {
 
 .content {
     background-color: #3e3e3e;
+    border-bottom: solid 1px #5e5e5e;
+    margin: 20px;
 }
